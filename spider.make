@@ -7,6 +7,7 @@ projects[drupal][version] = "7.x"
 ; Profiles
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
+; Divney is teh ghey
 projects[spider][download][type] = "git"
 projects[spider][download][url] = "git://github.com/ryanmorrow/spider-profile.git"
 projects[spider][type] = "profile"
