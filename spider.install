@@ -197,18 +197,9 @@ function spider_install() {
   $types = array(
     array(
       'type' => 'page',
-      'name' => st('Basic page'),
+      'name' => st('Basic Page'),
       'base' => 'node_content',
       'description' => st("Use <em>basic pages</em> for your static content, such as an 'About us' page."),
-      'custom' => 1,
-      'modified' => 1,
-      'locked' => 0,
-    ),
-    array(
-      'type' => 'staff',
-      'name' => st('Staff'),
-      'base' => 'node_content',
-      'description' => st('Use <em>Staff</em> for catagorizing organizational employees.'),
       'custom' => 1,
       'modified' => 1,
       'locked' => 0,
@@ -230,30 +221,6 @@ function spider_install() {
         'rdftype' => array('foaf:Document'),
       ),
     ),
-    array(
-      'type' => 'node',
-      'bundle' => 'article',
-      'mapping' => array(
-        'field_image' => array(
-          'predicates' => array('og:image', 'rdfs:seeAlso'),
-          'type' => 'rel',
-        ),
-        'field_tags' => array(
-          'predicates' => array('dc:subject'),
-          'type' => 'rel',
-        ),
-      ),
-    ),
-    array(
-      'type' => 'node',
-      'bundle' => 'staff',
-      'mapping' => array(
-        'field_image' => array(
-          'predicates' => array('og:image', 'rdfs:seeAlso'),
-          'type' => 'rel',
-        ),
-      ),
-    ),
   );
   foreach ($rdf_mappings as $rdf_mapping) {
     rdf_mapping_save($rdf_mapping);
@@ -272,8 +239,9 @@ function spider_install() {
   variable_set('user_picture_file_size', '800');
   variable_set('user_picture_style', 'thumbnail');
 
-  // Allow visitor account creation with administrative approval.
-  variable_set('user_register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL);
+
+  // Disable user register.
+  variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
 
   // Create a default vocabulary named "Tags", enabled for the 'article' content type.
   $description = st('Use tags to group articles on similar topics into categories.');
