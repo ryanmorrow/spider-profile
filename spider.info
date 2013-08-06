@@ -51,6 +51,8 @@ dependencies[] = insert_view
 dependencies[] = node_embed
 dependencies[] = genpass
 dependencies[] = omega_tools
+dependencies[] = content_access
+dependencies[] = rules
 
 
 
