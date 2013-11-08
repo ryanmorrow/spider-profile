@@ -54,7 +54,7 @@ dependencies[] = content_access
 dependencies[] = rules
 dependencies[] = htmlpurifier
 dependencies[] = globalredirect
-
+dependencies[] = auto_nodetitle
 
 
 ; Information added by drupal.org packaging script on 2013-04-03
