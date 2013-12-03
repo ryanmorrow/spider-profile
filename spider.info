@@ -52,7 +52,6 @@ dependencies[] = node_embed
 dependencies[] = genpass
 dependencies[] = content_access
 dependencies[] = rules
-dependencies[] = htmlpurifier
 dependencies[] = globalredirect
 dependencies[] = auto_nodetitle
 
