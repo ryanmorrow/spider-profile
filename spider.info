@@ -54,7 +54,7 @@ dependencies[] = content_access
 dependencies[] = rules
 dependencies[] = globalredirect
 dependencies[] = auto_nodetitle
-
+dependencies[] = transliteration
 
 ; Information added by drupal.org packaging script on 2013-04-03
 version = "7.x"
