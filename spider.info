@@ -32,7 +32,6 @@ dependencies[] = admin_menu
 dependencies[] = features
 dependencies[] = devel
 dependencies[] = devel_generate
-dependencies[] = devel_themer
 dependencies[] = ckeditor
 dependencies[] = jquery_update
 dependencies[] = pathauto
@@ -55,6 +54,7 @@ dependencies[] = rules
 dependencies[] = globalredirect
 dependencies[] = auto_nodetitle
 dependencies[] = transliteration
+dependencies[] = simplify
 
 ; Information added by drupal.org packaging script on 2013-04-03
 version = "7.x"
