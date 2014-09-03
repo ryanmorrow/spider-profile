@@ -41,7 +41,6 @@ dependencies[] = conditional_styles
 dependencies[] = googleanalytics
 dependencies[] = strongarm
 dependencies[] = token
-dependencies[] = webform
 dependencies[] = better_formats
 dependencies[] = date
 dependencies[] = link
@@ -55,6 +54,8 @@ dependencies[] = globalredirect
 dependencies[] = auto_nodetitle
 dependencies[] = transliteration
 dependencies[] = simplify
+dependencies[] = linkit
+dependencies[] = coder
 
 ; Information added by drupal.org packaging script on 2013-04-03
 version = "7.x"
