@@ -1,12 +1,8 @@
 name = Spider Module
 description = Ninjas are everywhere.
-version = VERSION
-core = 7.x
+
 dependencies[] = block
-dependencies[] = color
-dependencies[] = comment
 dependencies[] = contextual
-dependencies[] = dashboard
 dependencies[] = help
 dependencies[] = image
 dependencies[] = list
@@ -15,12 +11,10 @@ dependencies[] = number
 dependencies[] = options
 dependencies[] = path
 dependencies[] = taxonomy
-dependencies[] = dblog
-dependencies[] = search
 dependencies[] = shortcut
 dependencies[] = field_ui
 dependencies[] = file
-dependencies[] = rdf
+;dependencies[] = rdf
 
 ; Accelerant default modules
 dependencies[] = ctools
@@ -29,10 +23,11 @@ dependencies[] = views_ui
 dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = admin_menu
+dependencies[] = examples
 dependencies[] = features
 dependencies[] = devel
 dependencies[] = devel_generate
-dependencies[] = ckeditor
+dependencies[] = wysiwyg
 dependencies[] = jquery_update
 dependencies[] = pathauto
 dependencies[] = simplehtmldom
@@ -57,7 +52,6 @@ dependencies[] = simplify
 dependencies[] = linkit
 dependencies[] = coder
 
-; Information added by drupal.org packaging script on 2013-04-03
 version = "7.x"
 project = "drupal"
 datestamp = "1365027012"
